@@ -1,0 +1,24 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	text-decoration:none;
+}
+
+#position{
+	position:relative!important;
+}
+
+#position::after{
+	position:absolute;
+	content:"";
+	bottom:-285px;
+	left:150px;
+	border:none;
+	border-right:3px solid black;
+	width:3px;
+	height:285px;
+}
+
+
+
